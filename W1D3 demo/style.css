@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 80%;
+    border: 2px solid red;
+    margin: 0 auto; /* 0 margin top and bottom but auto align for left and right*/
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    border: 2px solid orange;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-section{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left, .right{
+    border: 2px solid green;
+    height: 400px;
+    text-align: center;
+}
+
+.left{
+    width: 400px;
+    display:flex;
+    gap: 20px; /*applies gap top to bottom*/
+    flex-direction: column; /* if you change to column it changes it to y axis so you can't use justify content */
+    align-items: center;
+}
+.side-content{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+.right{
+    width: 800px;
+}

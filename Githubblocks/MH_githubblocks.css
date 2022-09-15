@@ -1,0 +1,34 @@
+.container{
+    width: 800px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 25px;
+    text-align: center;
+}
+.top img{
+    height: 200px;
+}
+
+.middle img{
+    height: 200px;
+}
+
+.bottom img{
+    height:200px;
+}
+
+.row{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    padding: 15px;
+}
+
+.middle{
+    background-color: pink;
+}
+
+.bottom{
+    background-color: white;
+}

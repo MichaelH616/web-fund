@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    width: 50%;
+    margin-left: 30%;
+    font-size: 50px;
+}
+
+.nav-links{
+    width: 400%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size:20px;
+    margin-left: 50px;
+    margin-right: 26%;
+    list-style-type: none;
+    
+}
+
+.nav a{
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#profile{
+    color: white;
+}
+
+#btn{
+    height: 50px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 335%;
+    font-size: 20px;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card{
+    width: 275%;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.card-1{
+    width: 275%;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-bottom-width: 0;
+}
+
+.card-2{
+    width: 75%;
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    margin-left: 75%;
+}
+
+.card-header {
+    background-color: teal;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.user-circle {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon {
+    height: 20px;
+}
+
+a {
+    color: blue;
+}
+
+.row{
+    display:flex;
+}
+
+.col{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-2{
+    flex: 2;
+    margin: 20px 100px;
+}
+
+.header{
+    background-color:  rgb(53, 49, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-text{
+    padding: 20px;
+}
+
+.card-text h2,
+.card-text p {
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.date{
+    font-size: 20px;
+    color: gray;
+}
+
+.user{
+    display:flex;
+    justify-content: space-between;
+}
+
+.user-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.icon-2{
+    border-radius: 40%;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.connection{
+    background-color: gray;
+    color: black;
+    border-radius: 14px;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+.connections{
+    background-color: gray;
+    color: black;
+    border-radius: 14px;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+
+.front, .end{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.footer{
+    padding: 25px;
+    border-top: 2px solid gray;
+    font-size: 25px;
+}

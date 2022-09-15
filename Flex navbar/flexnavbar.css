@@ -1,0 +1,38 @@
+.nav{
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(49, 46, 46);
+    font-family: sans-serif;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    margin-left:30px;
+}
+
+.nav-links{
+    width: 500px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    list-style-type: none;
+    color: white;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px #000000;
+}

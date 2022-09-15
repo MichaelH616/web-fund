@@ -1,0 +1,20 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.cloud{
+    color: teal;
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+h3{
+    background-color: skyblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+}
